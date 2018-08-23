@@ -1,8 +1,10 @@
+const data = {
+  message: 'Hello World'
+};
+
 const vm = new Vue({
   el: '#app',
-  data: {
-    message: 'Hello World'
-  },
+  data,
   methods: {
     buttonClick() {
       console.log(this.message);
