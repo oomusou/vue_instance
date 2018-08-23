@@ -4,9 +4,8 @@ new Vue({
     counter: 0
   },
   methods: {
-    add: () => {
+    add() {
       this.counter++;
-      console.log(this);
     }
   }
 });
